@@ -1,10 +1,10 @@
-// let sortie = {//position de la sortie dans le labyrinth/ avec position x, y
+// let sortie = {//position de la sortie dans le snack/ avec position x, y
 //     x : 10,
 //     y : 10   
 // }
 
 
-// function genererSnack(ligne,colonne){
+// function generersnack(ligne,colonne){
 //     let snack = Array.from(({length:ligne}), () => Array(colonne).fill(1));
 //     const direction = [
 //         {dx:0, dy:-1},//direction de x, y function du positionement (gauche, droite, haut, bas)
@@ -14,8 +14,8 @@
 
 //     ];
 //     function dfs(x,y){//passage initiale de début du jeu
-//         snack[y][x] = 0;//labyrint constante obligatoire/l'ordre change avec y et x (si inverser)
-//         direction.sort(()=> Math.random() -0.5);//pour determiner un labyrinth aléatoire /.sort melanger les object/.shuffle melanger ce quil y a dans un tableau / ()=> création d'une function a l'interieur d'un argument//labyrint constante obligatoire
+//         snack[y][x] = 0;//snack constante obligatoire/l'ordre change avec y et x (si inverser)
+//         direction.sort(()=> Math.random() -0.5);//pour determiner un snack aléatoire /.sort melanger les object/.shuffle melanger ce quil y a dans un tableau / ()=> création d'une function a l'interieur d'un argument//snack constante obligatoire
 //         for(const {dx, dy} of direction) {//voir notes
 //             const nx = x + dx *2;//si pas de multiplication sa reviens toujours au numero impère
 //             const ny = y + dy *2;//*2 car un saut a chaque fois au niveau de la colonne
@@ -57,11 +57,11 @@
 //     if(e.key === "ArrowDown") deplacerJoueur(0, 1);
 //     if(e.key === "ArrowLeft") deplacerJoueur(-1, 0);
 //     if(e.key === "ArrowRight") deplacerJoueur(1, 0);
-//     dessinerSnack();
+//     dessinersnack();
 // }
 // )
 // console.log(snack);
-// dessinerSnack();
+// dessinersnack();
 
 
 //exemple code que je peux recuperer ()
